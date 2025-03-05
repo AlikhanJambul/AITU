@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0;
+    font-family: "Poppins", serif;
+}
+
+.button-header {
+    color: white;
+    width: 115px;
+    height: 45px;
+    font-size: 16px;
+    background: #2C4FA3;
+    border-radius: 2px;
+    border: none;
+}
+
+h1, h2, h3, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 180px;
+    height: 32px,
+}
+
+.list {
+    list-style-type: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between; /* распологает объекты по всей длине горизонтально */ 
+    align-items: center; /* распологает по центру */
+    padding: 15px 65px;
+    
+    outline: 1px solid #ccc;
+}
+
+.navbar__link {
+    padding: 10px;
+    size: 16px;
+    color: black;
+    background: white;
+    text-decoration: none;
+}
+
+.navbar {
+    margin-left: auto;
+    padding: 10px;
+}
+
+.section1__div1 {
+    font-size: 32px;
+    justify-content: start;
+    align-items: center;
+}
+
+.section1__div2 {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-left: 30px;
+}
+
+/* .section  */
+
+.section {
+    padding: 50px;
+    display: flex;
+}
+
+.section--row {
+    flex-direction: row;
+    gap: 80px;
+}
+
+.section__intro, .section__features {
+    width: 50%;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.section__subtitle {
+    font-size: 20px;
+    color: #3469e2;
+}
+
+.section__title {
+    font-size: 48px;
+}
+
+/* .button {
+    width: 25%;
+} */
+
+.section__bg {
+    background-color: #ccc;
+}
+
+.section__intro {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: left;
+    justify-content: center;
+}
+
+.section {
+    padding: 50px, 120px;
+    display: flex;
+}
+
+
+.section_features {
+    padding: 40px;
+}
+
+.section1_features {
+    padding: 40px 40px 40px 0px;
+}
+
+.features__icon {
+    height: 35px;
+    width: 35px;
+}
+
+.features__title{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    gap: 15px;
+}
+
+.section__features--bg {
+    background: #ffffff;
+}
+
+.button {
+    color: white;
+    width: auto;
+    height: 45px;
+    font-size: 16px;
+    background: #2C4FA3;
+    border-radius: 2px;
+    border: none;
+
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.button__first {
+    color: white;
+    width: 110px;
+    height: 45px;
+    font-size: 16px;
+    background: #426bcc;
+    border-radius: 2px;
+    border: none;
+
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.intro__title {
+    font-size: 64px;
+}
+
+.btn-icon {
+    width: 20px;
+    height: 20px;
+    /* margin-right: px; */
+}
+
+.section1__title {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+
+.section1__title h3 {
+    color: #3469e2;
+}
+
+.section1__title h2 {
+    font-size: 35px;
+    margin-top: 25px;
+}
+
+.section--column {
+    flex-direction: column;
+    gap: 80px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.list1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    max-width: 900px;
+}
+
+.list1__item {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: start;
+}
+
+.card1 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: left;
+}
+
+.card1__icon {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.card1__title {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.card1__text {
+    font-size: 14px;
+    color: #666;
+}
+
+/* .button:hover {
+    background: #0a2c4a;
+} */
+
+/* Стили для последнего блока */
+.list__item--highlight {
+    background: #052746;
+    color: white;
+}
+
+.list__item--highlight .card-title {
+    color: white;
+}
+
+/* .list__item--highlight {
+    background: 0d3b66;
+} */
+
+
+.section1__subtitle {
+    color: #3469e2;
+    align-items: start;
+    /* padding-left: 20px; */
+}
+
+.section__intro--new {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    padding: 0px 0px 0px 0px;
+}
+
+.section--new {
+    padding: 30px, 120px;
+    display: flex;
+}
+
+.section--column--new {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.list__item--bg {
+    background: #d2cbcb;
+}
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.list2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 10px;
+    width: 30%;
+}
+
+.list3__title {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+}
+
+.container__image {
+    width: 30%;
+    gap: 10px;
+    margin-left: 10px;
+    height: auto;
+}
+
+.button--center {
+    display: flex;
+    justify-content: center;
+}
+
+.section2--column {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.footer {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    width: 100%;
+
+    padding: 60px;
+    
+    background-color: #0e1121;
+}
+
+.footer__top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__img {
+    height: 100%;
+}
+
+.footer__links-list {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    list-style-type: none;
+}
+
+.footer__hr {
+    border-color:rgb(186, 186, 186)
+}
+
+.footer .navbar a {
+    color: white;
+}
+
+.footer__primary-text {
+    color: white
+}
+
+.footer__primary-text:first-child {
+    margin-right: 15px;
+}
+
+.footer__secondary-text {
+    color: #8991A5;
+}
+
+.footer__bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.section--bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 70px;
+    gap: 30px; 
+    background-color: #212a53;
+} 
+
+.section--bg .list3__title {
+    color: white;
+}
+
+.navbar__item {
+    color: white;
+    text-decoration: none;
+    justify-content: left;
+}
+
+.footer .navbar {
+    margin-left: 0px;
+    padding: 0px;
+}
+

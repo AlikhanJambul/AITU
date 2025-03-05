@@ -1,0 +1,30 @@
+.card {
+    padding: 25px;
+}
+
+.card__image {
+    margin-bottom: 25px;
+}
+
+.card__title {
+    font-size: 22px;
+    
+    margin-bottom: 10px;
+}
+
+.card__description {
+    font-size: 16px;
+}
+
+
+/* @media only screen and (max-width: 480px) {
+    .card {
+        display: flex;
+        justify-content: center;
+
+        width: 100px;
+
+        flex-direction: column;
+    }
+} 
+*/

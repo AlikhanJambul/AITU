@@ -1,0 +1,14 @@
+header, .container, footer {
+    width: 80%;
+}
+
+header, main, footer {
+    margin: 0 auto;
+}
+
+
+@media only screen and (max-width: 480px) {
+    header, .container, footer {
+        width: 90%;
+    }
+}

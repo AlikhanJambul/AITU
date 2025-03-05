@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cats</title>
+    <link rel="stylesheet" href="./style/base/reset.css">
+    <link rel="stylesheet" href="./style/base/typography.css">
+    <link rel="stylesheet" href="./style/layout/header.css">
+    <link rel="stylesheet" href="./style/layout/section.css">
+    <link rel="stylesheet" href="./style/layout/footer.css">
+    <link rel="stylesheet" href="./style/components/nav.css">
+    <link rel="stylesheet" href="./style/layout/poster.css">
+    <link rel="stylesheet" href="./style/components/button.css">
+    <link rel="stylesheet" href="./style/layout/app.css">
+    <link rel="stylesheet" href="./style/components/list.css">
+    <link rel="stylesheet" href="./style/layout/container.css">
+    <link rel="stylesheet" href="./style/components/card.css">
+</head>
+<body>
+    <header class="header">
+        <img src="./image/logo.png" alt="logo">
+        <nav class="navbar">
+            <a class="navbar__item" href="#why-us">Почему мы?</a>
+            <a class="navbar__item" href="#numbers">Номера</a>
+            <a class="navbar__item" href="#reviews">Отзывы</a>
+            <a class="navbar__item" href="#how-to-find-us">Как нас найти</a>
+            <img src="./image/mobile_image/for_header.png" alt="button_for_mobile_header">
+        </nav>
+    </header>
+    <main>
+        <section class="poster">
+            <div class="poster__intro">
+                <p class="poster__text">Санкт-Петербург</p>
+                <h1 class="poster__title bold-font">Котейка</h1>
+                <h4 class="poster__subtitle">Уютная гостиница для котов и кошек</h4>
+                <div class="button_place">
+                    <button class="button">
+                        <span class="button__text">Забронировать</span>
+                        <img class="button__item" src="./image/image.png" alt="paw" width="35px" height="35px">
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section id="why-us" class="section section--column">
+            <h2 class="poster__title bold-font">Почему мы?</h2>
+            <div class="section__container">
+                <ul class="list">
+                    <li class="list__item">
+                        <article class="card">
+                            <img class="card__image" src="./image/icons/tempreture.png" alt="tempreture">
+                            <p class="card__title bold-font">Комфортная температура</p>
+                            <span class="card__description">Во всех номерах поддерживается<br>комфортная температура в пределах<br>23 - 25 градусов. В каждом номере<br>можно дополнительно отрегулировать<br>температуру.</span>
+                        </article>
+                    </li>
+                    <li class="list__item">
+                        <article class="card">
+                            <img class="card__image" src="./image/icons/camera.png" alt="camera">
+                            <p class="card__title bold-font">Видеонаблюдение</p>
+                            <span class="card__description">Мы предоставляем доступ в нашу<br>систему. Вы сможете следить<br>за своим питомцем со своего<br>смартфона или компьютера.</span>
+                        </article>
+                    </li>
+                    <li class="list__item">
+                        <article class="card">
+                            <img class="card__image" src="./image/icons/car.png" alt="car">
+                            <p class="card__title bold-font">Услуги Зоотакси</p>
+                            <span class="card__description">Мы приедем за вашим питомцем<br>в любой район Санкт-Петербурга.</span>
+                        </article>
+                    </li>
+                    <li class="list__item">
+                        <article class="card">
+                            <img class="card__image" src="./image/icons/fish.png" alt="fish">
+                            <p class="card__title bold-font">Сбалансированное питание</p>
+                            <span class="card__description">Вы можете привезти свой корм<br>или доверить рацион своего<br>питомца нашим профессионалам.</span>
+                        </article>
+                    </li>
+                    <li class="list__item">
+                        <article class="card">
+                            <img class="card__image" src="./image/icons/cat.png" alt="cat">
+                            <p class="card__title bold-font">Ежедневные прогулки</p>
+                            <span class="card__description">По вашему желанию мы выгуливаем<br>вашего питомца два раза в день<br>на специализированной закрытой<br>территории.</span>
+                        </article>
+                    </li>
+                    <li class="list__item">
+                        <article class="card">
+                            <img class="card__image" src="./image/icons/hand.png" alt="hand">
+                            <p class="card__title bold-font">Лучшие ветеринары</p>
+                            <span class="card__description">В гостинице 24 часа дежурит<br>ветеринарный врач, который окажет<br>любую помощь в случае необходимости.</span>
+                        </article>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="container" id="numbers">
+            <h3 class="container__title">Номера</h3>
+            <div class="container__content">
+                <img class="container__img" src="./image/image1.png" alt="cat">
+                <div class="container__apartment">
+                    <h5 class="container__apartment--title">Эконом плюс</h5>
+                    <ul class="list--info">
+                        <li><span class="bullet"></span> <strong>Площадь</strong> — 0,90 м²</li>
+                        <li><span class="bullet"></span> <strong>Размеры (Ш×Г×В)</strong> — 90×100×180 см</li>
+                        <li><span class="bullet"></span> <strong>Цена за сутки</strong>: 200₽</li>
+                    </ul>                    
+                    <button class="button">
+                        <span class="button__text">Забронировать</span>
+                        <img class="button__item" src="./image/icons/paw_white.png" alt="paw" width="35px" height="35px">
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="reviews">
+            <h6 class="section__title">Отзывы</h6>
+            <ul class="list reviews__list">
+                <li class="list__item">
+                    <article class="card">
+                        <span class="card__description">Первый раз пришлось оставить нашего котика
+                            в гостинице, очень переживали. Администратор Мария каждый день высылала нам фото нашего питомца, рассказывала, как он себя чувствует.
+                            И мы и котик остались очень довольны!
+                        </span>
+                        <div class="reviews_author">
+                            <p>Валерия Гришаева</p>
+                            <p>15 ноября, 2019</p>
+                        </div>
+                    </article>
+                </li>
+                <li class="list__item">
+                    <article class="card">
+                        <span class="card__description">Гостиницу для питомцев нам посоветовали друзья. Они всегда оставляют здесь своего кота, когда уезжают. В “Котейке” очень хорошо заботятся о питомцах, в гостинице очень чисто. Всем рекомендую! Будем обращаться еще.</span>
+                        <div class="reviews_author">
+                            <p>Екатерина Минаева</p>
+                            <p>10 октября, 2019</p>
+                        </div>
+                    </article>
+                </li>
+                <li class="list__item">
+                    <article class="card">
+                        <span class="card__description">Мой кот — настоящая привереда, угодить ему сложно. У меня были особые требования к уходу за ним, и “Котейка” отлично справились. Я часто наблюдал по видео за питомцем со своего телефона, это очень удобно. </span>
+                        <div class="reviews_author">
+                            <p>Павел Нечаев</p>
+                            <p>13 сентября, 2007</p>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+        </section>
+        <section class="poster poster-container" id="how-to-find-us">
+            <div class="poster__intro">
+                <p class="poster__title bold-font">Как нас найти</p>
+                <ul class="info">
+                    <li class="info__item">
+                        <p class="info__title">Адрес</p>
+                        <p class="info__description">Санкт-Петербург,<br>ул Большая Конюшенная, д 19</p>
+                    </li>
+                    <li class="info__item">
+                        <p class="info__title">Режим работы</p>
+                        <p class="info__description">Ежедневно, с 9:00 до 20:00</p>
+                    </li>
+                    <li class="info__item">
+                        <p class="info__title">Телефон</p>
+                        <p class="info__description">8 (800) 333-55-99</p>
+                    </li>
+                    <li class="info__item">
+                        <p class="info__title">E-mail</p>
+                        <p class="info__description">info@cat-hotel.ru</p>
+                    </li>
+                    <li class="info__item">
+                        <p class="info__title">Социальные сети</p>
+                        <div class="info__social-media">
+                            <img src="./image/icons/facebook.png" alt="facebook" />
+                            <img src="./image/icons/instagram.png" alt="instagram" />
+                            <img src="./image/icons/vk.png" alt="vk" />
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="poster__map">
+                <iframe src="https://yandex.kz/map-widget/v1/-/CHqBeAPC"></iframe>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="header">
+            <img src="./image/logo.png" alt="logo">
+            <nav class="navbar">
+                <a class="navbar__item" href="#why-us">Почему мы?</a>
+                <a class="navbar__item" href="#numbers">Номера</a>
+                <a class="navbar__item" href="#reviews">Отзывы</a>
+                <a class="navbar__item" href="#how-to-find-us">Как нас найти</a>
+            </nav>
+        </div>
+        <hr>
+        <div class="footer__info">
+            <p>2019 Все права защищены</p>
+            <p>Политика конфиденциальности</p>
+        </div>
+    </footer>
+</body>
+</html>

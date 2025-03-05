@@ -1,0 +1,81 @@
+.card {
+    border: 1px solid #3d3d3d;
+    border-radius: 10px;
+
+    width: 20%;
+    height: auto;
+
+    background-color: #3d3d3d;
+    color: white;
+
+    margin: 20px;
+}
+
+.card__main {
+    display: flex;
+    flex-direction: column;
+
+    margin: 15px;
+
+    gap: 3px;
+}
+
+.card__name {
+    font-size: 25px;
+    margin-bottom: 3px;
+}
+
+.hobbies__item {
+    margin-bottom: 3px;
+    margin-left: 50px;
+}
+
+.secret {
+    display: none;
+    color: #ffffff;
+}
+
+@media only screen and (max-width: 1134px) {
+    .card {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 765px) {
+    .card__replace {
+        display: flex;
+        justify-content: center;
+    }
+    .card {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    .card__replace {
+        display: flex;
+        justify-content: center;
+    }
+    .card {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    .card__replace {
+        display: flex;
+        justify-content: center;
+    }
+    .card {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 248px) {
+    .card__replace {
+        display: none;
+    }
+    .secret {
+        display: block;
+    }
+}

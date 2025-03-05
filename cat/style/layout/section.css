@@ -1,0 +1,42 @@
+.section {
+    padding: 60px 40px;
+}
+
+.section--column {
+    display: flex;
+    flex-direction: column;
+}
+
+.section .poster__title {
+    display: flex;
+    justify-content: center;
+
+    font-size: 36px;
+
+    margin-bottom: 60px;
+}
+
+.section__container {
+    display: flex;
+    justify-content: center;
+}
+
+.reviews_author {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reviews_author p {
+    color: #848484;
+    margin-top: 15px;
+}
+
+.section__title {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 50px;
+
+    font-size: 36px;
+    font-family: "LatoBold";
+}

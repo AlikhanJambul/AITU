@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "LatoBold";
+    src: url(../../fonts/Lato-Bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "LatoRegular";
+    src: url(../../fonts/Lato-Regular.ttf) format("truetype");
+}
+
+
+body {
+    font-family: LatoRegular;
+    background-image: url("../../image/bg_project.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.bold-font {
+    font-family: LatoBold;
+}
