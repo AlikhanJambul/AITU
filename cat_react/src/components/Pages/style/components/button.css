@@ -1,0 +1,61 @@
+.button {
+    border-radius: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 206px;
+    height: 50px;
+
+    font-size: 17px;
+
+    position: relative;
+    border: none;
+
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    color: white;
+    background-color: #FF7236;
+}
+
+.button:active {
+    transform: translateY(5px);
+
+}
+
+.button__text {
+    position: absolute;
+    bottom: 30%;
+    left: 13%;
+}
+
+.button__item {
+    position: absolute;
+    right: 3%;
+}
+
+.container__apartment .button {
+    margin-left: 85px;
+    color: #ffffff;
+    background-color: #FF7236;
+}
+
+.container__apartment .button:hover {
+    background-color: #FAC663;
+}
+
+@media only screen and (max-width: 480px) {
+    .button_place {
+        display: flex;
+        justify-content: center;
+    }
+
+    .container__apartment .button {
+        margin-left: 12px;
+        margin-bottom: 20px;
+    }
+}

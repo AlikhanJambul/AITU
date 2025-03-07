@@ -1,0 +1,48 @@
+
+.header {
+    box-sizing: border-box;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    padding: 10px 0;
+  
+    background-color: #ffffff;
+  }
+  
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .navbar img:last-child {
+    display: none;
+  }
+  
+  .navbar__item {
+    text-decoration: none;
+    color: black;
+  }
+  
+  @media only screen and (max-width: 480px) {
+    header .navbar a {
+        display: none;
+    }
+  
+    .navbar img:last-child {
+        display: block;
+    }
+    
+    footer .navbar {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+  
+    footer .header {
+        display: block;
+    }
+  }

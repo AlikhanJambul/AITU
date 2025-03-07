@@ -1,0 +1,137 @@
+.poster__cat-bg {
+    width: 100%;
+}
+
+.poster {
+    display: flex;
+    align-items: center;
+
+    height: 100%;
+}
+
+.poster-first-child {
+    height: 70vh;
+
+    background-image: url(../../../../image/cat_background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.poster__intro {
+    width: 70%;
+}
+
+.poster__intro-last {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: 40%;
+
+    background-color: #FAC663;
+}
+
+.poster__title-last {
+    font-size: 36px;
+
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.poster__title {
+    font-size: 75px;
+
+    margin-bottom: 15px;
+}
+
+.poster__subtitle {
+    font-size: 20px;
+
+    margin-bottom: 20px;
+}
+
+.poster__map {
+    flex-grow: 1;
+    
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+}
+.poster__map iframe {
+    width: 100%;
+    height: 522px;
+
+    border: 0;
+}
+
+@media only screen and (max-width: 480px) {
+    .poster-first-child {
+        display: flex;
+        align-items: start;
+        justify-content: center;
+
+        background-image: url(../../../../image/mobile_image/cat_bg_mobile.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        text-align: center;
+
+        padding-top: 50px;
+    }
+    .poster__title {
+        font-size: 44px;
+    }
+    .poster__subtitle {
+        font-size: 16px
+    }
+    .poster_text {
+        font-size: 12px;
+    }   
+
+    .poster .poster-container {
+        display: block;
+        /* flex-direction: column; */
+
+    }
+
+    .poster-container { 
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+        width: 100%;
+    }
+
+    .poster__intro {
+        width: 100%;
+    }
+
+    .poster__map {
+        width: 100%;
+    }
+
+    .poster__intro-last {
+        justify-content: left;
+        align-items: start;
+
+        width: 100%;
+    }
+
+    .poster__map iframe {
+        width: 480px;
+        height: 300px;
+    
+        border: 0;
+    }
+
+    .poster__title-last {
+        margin-left: 20px;
+    }
+
+}
