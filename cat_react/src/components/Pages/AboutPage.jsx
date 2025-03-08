@@ -1,6 +1,8 @@
+import factImg from '../../image/fact.jpg'
+
 function AboutPage() {
     return (
-        <h1>About Page</h1>
+        <img src="" alt="fact" />
     );
 }
 
