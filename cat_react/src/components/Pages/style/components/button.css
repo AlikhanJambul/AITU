@@ -38,13 +38,23 @@
     right: 3%;
 }
 
-.container__apartment .button {
+.button-alternative {
     margin-left: 85px;
     color: #ffffff;
     background-color: #FF7236;
 }
 
-.container__apartment .button:hover {
+.button-alternative__none-margin {
+    margin-left: 0px;
+    margin-bottom: 15px;
+}
+
+.button-alternative__replace {
+    display: flex;
+    justify-content: center;
+}
+
+.button-alternative:hover {
     background-color: #FAC663;
 }
 
@@ -54,7 +64,7 @@
         justify-content: center;
     }
 
-    .container__apartment .button {
+    .button {
         margin-left: 12px;
         margin-bottom: 20px;
     }

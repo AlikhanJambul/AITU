@@ -2,7 +2,9 @@ import factImg from '../../image/fact.jpg'
 
 function AboutPage() {
     return (
-        <img src="" alt="fact" />
+        <div className='fact'>
+            <img src={factImg} alt="fact" />
+        </div>
     );
 }
 

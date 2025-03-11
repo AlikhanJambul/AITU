@@ -15,3 +15,56 @@
 .card__description {
     font-size: 16px;
 }
+
+.fact {
+    display: flex;
+    justify-content: center;
+}
+
+.card-cat {
+    display: flex;
+    flex-direction: column;
+
+
+    width: 20%;
+
+    border-radius: 8px;
+
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-cat__img {
+    width: auto;
+    height: auto;
+}
+
+.card-cat__title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    margin-left: 12px;
+    font-weight: bold;
+}
+
+.card-cat__list {
+    margin-left: 12px;
+}
+
+.card2 {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.card-cat__size, .cat__plos, .cat__price {
+    font-size: 14px;
+}
+
+.card-cat__list {
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+
+    margin-bottom: 30px;
+}

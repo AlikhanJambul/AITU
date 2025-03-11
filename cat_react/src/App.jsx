@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import logo from './image/logo.png'
 import elemMobNav from './image/mobile_image/for_header.png' 
-import HomePage from './components/pages/HomePage'
-import AboutPage from './components/pages/AboutPage'
-import NumberPage from './components/pages/NumberPage'
+import HomePage from './components/Pages/HomePage'
+import AboutPage from './components/Pages/AboutPage'
+import NumberPage from './components/Pages/NumberPage'
 import './App.css'
 
 function App() {
