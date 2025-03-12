@@ -22,20 +22,15 @@
 }
 
 .card-cat {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 45px;
 
-
-    width: 20%;
-
-    border-radius: 8px;
-
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 200px;
 }
 
 .card-cat__img {
     width: auto;
-    height: auto;
 }
 
 .card-cat__title {
@@ -52,11 +47,12 @@
 
 .card2 {
     width: 80%;
+
     margin: 0 auto;
     margin-bottom: 20px;
 }
 
-.card-cat__size, .cat__plos, .cat__price {
+.card-cat__size, .card-cat__plos, .card-cat__price {
     font-size: 14px;
 }
 
@@ -67,4 +63,18 @@
     gap: 10px;
 
     margin-bottom: 30px;
+}
+
+.card-cat__article {
+    border-radius: 8px;
+
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card2__title {
+    font-size: 36px;
+    font-weight: 700;
+
+    padding-bottom: 36px;
+    padding-top: 36px;
 }
