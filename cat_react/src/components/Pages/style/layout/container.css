@@ -1,12 +1,16 @@
 .container {
     margin: 5% auto;
+    margin-top: 130px;
+    margin-bottom: 200px;
 }
 
 .container__title {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    margin-top: 50px;
 
     font-size: 30px;
-    font-family: "LatoBold";
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
 
     display: flex;
     justify-content: center;
@@ -44,7 +48,8 @@
     margin-left: 85px;
     margin-bottom: 25px;
     font-size: 22px;
-    font-family: "LatoBold";
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
 
 }
 
@@ -96,4 +101,47 @@
 
 .container-cat {
     width: 80%;
+    margin: 0 auto;
+
+    position: relative;
+
+    margin-bottom: 200px;
+}
+
+.container-card__section {
+    width: 70%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: row;
+    
+    gap: 100px;
+}
+
+.container-card__info {
+    width: 50%;
+}
+
+.container-card__title {
+    font-size: 36px;
+    font-weight: 700;
+
+    margin-bottom: 30px;
+}
+
+.container-cat__cat-info {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.container-cat__cat-info-last {
+    margin-bottom: 15px;
+}
+
+.container-cat__things {
+    margin-bottom: 10px;
+}
+
+.container-cat__things-last {
+    margin-bottom: 20px;
 }

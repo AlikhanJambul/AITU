@@ -6,6 +6,8 @@ import catFive from '../../image/cat-five.png'
 import catSix from '../../image/cat-six.png'
 import CardNumber from '../Pages/Page_components/Card_number'
 import catBg from '../../image/cat-banner.png'
+import paw from '../../image/image.png'
+import MapSection from './Page_components/Map_section'
 
 function NumberPage() {
     const catInfo = [
@@ -77,20 +79,40 @@ function NumberPage() {
 
 
     return (
-        <section className='card2'>
-            <p className='card2__title'>Наши номера</p>
-            <ul className='card-cat'>
-                {catInfo.map((info) => (
-                    <li>
-                        <CardNumber title={info.title} catPhoto={info.catPhoto} size={info.size} plosh={info.plosh} osnNum={info.osnNum} price={info.price} />
-                    </li>
-                ))}
-            </ul>
+        <>
+            <section className='card2'>
+                <p className='card2__title'>Наши номера</p>
+                <ul className='card-cat'>
+                    {catInfo.map((info) => (
+                        <li>
+                            <CardNumber title={info.title} catPhoto={info.catPhoto} size={info.size} plosh={info.plosh} osnNum={info.osnNum} price={info.price} />
+                        </li>
+                    ))}
+                </ul>
+            </section>
 
-            <div className='container-cat'>
-                <img src={catBg} alt="bg cat" />
-            </div>
-        </section>
+            <section className='container-cat'>
+            <img src={catBg} alt="bg cat" />
+            <ul className='container-cat__list'>
+                <li>
+                    <p className='cat-list__pre-title'>Каждый 7-й день</p>
+                    <p className='cat-list__title'>бесплатно!</p>
+                </li>
+                <li>
+                    <p>Акция действует при размещении</p>
+                    <p className='cat-list__desc'>в номерах "Люкс" и "Супер-Люкс"</p>
+                </li>
+                <li>
+                    <button className="button">
+                        <span className="button__text">Забронировать</span>
+                        <img className="button__item" src={paw} alt="paw" width="35px" height="35px" />
+                    </button>
+                </li>
+            </ul>
+            </section>
+            
+            <MapSection />
+        </>
     );
 }
 

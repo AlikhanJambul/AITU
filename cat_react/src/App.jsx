@@ -20,8 +20,8 @@ function App() {
     </header>
       <Routes>
         <Route path='/' element={<HomePage />} />
-        <Route path='/about' element={<AboutPage />} />
-        <Route path='/number/:numberId' element={<NumberPage />} />
+        <Route path='/about' element={<NumberPage />} />
+        <Route path='/number/:numberId' element={<AboutPage />} />
       </Routes>
 
       <footer class="footer">
